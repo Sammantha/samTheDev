@@ -19,13 +19,7 @@ export default function Experience() {
 
             {data.jobs.map((job) => {
                 return <ExperienceCard
-                    buttonText={job.buttonText}
-                    description={job.description}
-                    image={job.image}
-                    imageAlt={job.imageAlt}
-                    title={job.title}
-                    subtitle={job.subtitle}
-                    skills={job.skills}
+                    {...job}
                 ></ExperienceCard>
             })}
 
