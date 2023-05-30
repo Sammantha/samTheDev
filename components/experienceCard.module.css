@@ -1,0 +1,8 @@
+.cardContent {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.skillsContent {
+    width: 400px;
+}
