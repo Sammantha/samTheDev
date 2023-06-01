@@ -9,3 +9,7 @@
         flex-direction: column;
     }
 }
+
+.cardOutline {
+    margin: 0.5rem auto;
+}

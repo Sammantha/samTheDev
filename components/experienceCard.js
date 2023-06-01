@@ -16,7 +16,7 @@ export default function ExperienceCard(props) {
         width: 500
     };
     return (
-        <Card>
+        <Card className={styles.cardOutline}>
             <CardContent>
                 <Typography variant="h5" component="div">
                     {props.subtitle}
