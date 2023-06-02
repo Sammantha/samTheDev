@@ -8,10 +8,10 @@ export default function handler(req, res) {
                     "description": `
                         <p>
                             I joined Circulo 4 months after the company's official inception and stayed with them till their very last day as a tech company 2 years later. 
-                            I joined them as employee #41 when they were still a small startup, I collaborated with other teams and departments when they reached their peak of 300, and I helped close down products and projects as each one was exited.
+                            I joined them as employee #41 when they were still a small startup, collaborated with other teams and departments when they reached their peak of 300, and helped close down products and projects as each one was exited.
                             I was selected to stay through 3 layoffs/reorganizations and each time I recieved feedback that I had grown so much and showed excellent potential. 
                         </p>
-                        <p>Here are 3 major projects I worked on throught my time at Circulo:</p>
+                        <p>Here are 3 major projects I worked on throughout my time at Circulo:</p>
 
                         <p>Insurance Claim State Machine <small>(2021)</small></p> 
                         <ul>

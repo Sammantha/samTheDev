@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import styles from './experienceCard.module.css';
+import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Chart from 'react-google-charts';
 import Link from 'next/link';
@@ -41,9 +41,7 @@ export default function ExperienceCard(props) {
                         />
                     </div>
                 </div>
-                <Typography variant="body2">
-                    <div dangerouslySetInnerHTML={{ __html: props["description"] }}></div>
-                </Typography>
+                <Typography variant="body2" component="div" dangerouslySetInnerHTML={{ __html: props["description"] }}></Typography>
             </CardContent>
             <CardActions>
                 <Button size="small">
