@@ -24,6 +24,9 @@ export default function ExperienceCard(props) {
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                     {props.title}
                 </Typography>
+                <Typography sx={{ fontSize: 12 }} color="text.secondary" gutterBottom>
+                    {props.years}
+                </Typography>
                 <div id="top layer" className={styles.cardContent}>
                     <Image
                         src={props.image}
@@ -41,7 +44,25 @@ export default function ExperienceCard(props) {
                         />
                     </div>
                 </div>
-                <Typography variant="body2" component="div" dangerouslySetInnerHTML={{ __html: props["description"] }}></Typography>
+                <Typography variant="body2" component="div" dangerouslySetInnerHTML={{ __html: props["description1"] }}></Typography>
+                {props.examples && <div className={styles.exampleImages}>
+                    {props.examples.map((example, index) => {
+                        return (
+                            <div className={styles.exampleImage} key={`example_${index}`}>
+                                <Link href={example.link} >
+                                    <Image
+                                        src={example.src}
+                                        alt={example.alt}
+                                        width='200'
+                                        height='200'
+                                    />
+                                </Link>
+                                <Typography variant='caption'>{example.caption}</Typography>
+                            </div>
+                        )
+                    })}
+                </div>}
+                <Typography variant="body2" component="div" dangerouslySetInnerHTML={{ __html: props["description2"] }}></Typography>
             </CardContent>
             <CardActions>
                 <Button size="small">

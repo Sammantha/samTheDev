@@ -5,7 +5,7 @@ export default function handler(req, res) {
                 {
                     "buttonLink": "https://www.circulohealth.com/#card-0",
                     "buttonText": "circulohealth.com",
-                    "description": `
+                    "description1": `
                         <p>
                             I joined Circulo 4 months after the company's official inception and stayed with them till their very last day as a tech company 2 years later. 
                             I joined them as employee #41 when they were still a small startup, collaborated with other teams and departments when they reached their peak of 300, and helped close down products and projects as each one was exited.
@@ -73,12 +73,88 @@ export default function handler(req, res) {
                         ["Front End", 20],
                         ["Mentoring", 20]
                     ],
-                    "pieColors": ["#F37F65", "#5E649F", "#E2CEB5"]
+                    "pieColors": ["#F37F65", "#5E649F", "#E2CEB5"],
+                    "years": "2 Years: Summer 2021 - Summer 2023"
+                },
+                {
+                    "buttonLink": "https://webbuy.com/",
+                    "buttonText": "webbuy.com",
+                    "description1": `
+                        <p>
+                            I held 2 positions at this company - Junior Website Developer and Web App Developer. 
+                            I was a website developer with WebGrain until 2020 when Webgrain's largest client purchased them and we became WebBuy.
+                            At that point my work shifted away from WordPress and over to SPAs and APIs.
+                        </p>
+                        <p>Junior Website Developer <small>(2019)</small></p> 
+                        <ul>
+                            <li>I created static and dynamic websites with WordPress and PHP, maintained hundreds of client sites with upgrades & bug fixes, and dabbled in more complex projects to help out the team.</li>
+                            <li>Tech and tools I used to build websites included: WordPress, HTML, CSS, Sass, jQuery, and PHP</li>
+                            <li>Particiapted in hack-a-thons where we practiced new frameworks like Laravel, Lumen, and Angular</li>
+                            <li>Teamed up with 2 other developers to build a web application for automating courtroom paperwork for divorces. 
+                            The lawyers would direct their clients to the site, the clients would fill out a simple questionairre, and the divorce paperwork would be automatically generated and filled out, ready to print and sign.</li>
+                            <li>The following are 5 examples of websites I built myself:</li>
+                        </ul>
+                    `,
+                    "examples": [
+                        {
+                            "src": "/images/weave.png",
+                            "alt": "Weave Transportation's Homepage",
+                            "link": "https://weaveind.com/",
+                            "caption": "Weave Transportation: A local trucking company's informational website"
+                        },
+                        {
+                            "src": "/images/ostlunds.png",
+                            "alt": "Ostlund's Fire Protection Homepage",
+                            "link": "https://ofp.cc/",
+                            "caption": "Ostlund's Fire Protection: A local fire safety device installation company's informational website"
+                        },
+                        {
+                            "src": "/images/highTech.png",
+                            "alt": "High Tech Solutions Group's Featured Projects Page",
+                            "link": "https://hts-sg.com/",
+                            "caption": "High Tech Solutions: A local safety & security company's informational website"
+                        },
+                        {
+                            "src": "/images/susanBryan.png",
+                            "alt": "Susan Bryan Studios Gallery Page",
+                            "link": "https://susanbryanstudios.com/",
+                            "caption": "Susan Bryan Studios: a local oil artist's ecommerce and portfolio site"
+                        },
+                        {
+                            "src": "/images/ontherox.png",
+                            "alt": "On The Rox Homepage",
+                            "link": "https://ontheroxfab.com/",
+                            "caption": "On the Rox Fabrication: a Roxor special interest group's ecommerce and guide site"
+                        }
+                    ],
+                    "description2": `
+                        <p>Web App Devloper <small>(2020 - 2021)</small></p> 
+                            <ul>
+                                <li>Contributed to the design of a new, revamped, serverless WebBuy application in newer technologies</li>
+                                <li>Built out new features of the new application on the front-end and in the API</li>
+                                <li>Assisted the Help Desk with triage, debugging, and resolving of client issues.</li>
+                                <li>Technology and tools I used for the new application included: Angular, GraphQL, AWS Lambda, MySQL, NodeJS, and Sass</li>
+                                <br>
+                                <li>Maintained and debugged the legacy WebBuy application while the new application was being built up</li>
+                                <li>Technology and tools I used for the legacy application included: CodeIgniter, PHP, HTML, CSS, and jQuery</li>
+                            </ul>
+                        `,
+                    "image": "/images/webbuy_logo.png",
+                    "imageAlt": "WebBuy logo",
+                    "title": "Webgrain & WebBuy",
+                    "subtitle": "Web App Developer",
+                    "skills": [
+                        ["Skill", "Percentage of time spent on that skill at this position"],
+                        ["Back End", 50],
+                        ["Front End", 50],
+                    ],
+                    "pieColors": ["#EE5026", "#18636F"],
+                    "years": "3 Years: Summer 2018 - Summer 2021"
                 },
                 {
                     "buttonLink": "http://playgvg.com/",
                     "buttonText": "playgvg.com",
-                    "description": `
+                    "description1": `
                         <p>At GVG I spent about half my time manually testing gambling machine software. 
                             This taught me how to come up with edge cases, how to ensure software adheres to state laws, and how to massage bugs out of user-facing software.
                             This experience gives me an excellent perspective for user stories while developing and makes me a strong supporter of TDD.</p>
@@ -117,36 +193,10 @@ export default function handler(req, res) {
                         ["Documentation", 30],
                         ["Coding Internal Tools", 20]
                     ],
-                    "pieColors": ["#B80308", "#E6A10A", "#000000"]
+                    "pieColors": ["#B80308", "#E6A10A", "#000000"],
+                    "years": "2 Years: Summer 2016 - Summer 2018"
                 },
             ]
         }
     );
 }
-
-/*
-{
-                    "buttonLink": "",
-                    "buttonText": "",
-                    "description": `
-                        <p></p>
-                        <p></p>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        <p></p>
-                        `,
-                    "image": "/images/_____.jpg",
-                    "imageAlt": " logo",
-                    "title": "",
-                    "subtitle": "",
-                    "skills": [
-                        ["Skill", "Percentage of time spent on that skill at this position"],
-                        ["", 50],
-                        ["", 30],
-                        ["", 20]
-                    ],
-                    "pieColors": ["#", "#", "#"]
-                },
-*/
