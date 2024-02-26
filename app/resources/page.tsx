@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Layout from "../components/layout";
+import * as React from 'react';
 
-export default function Resources(params) {
+export default function Page() {
     return (
-        <Layout>
+        <div>
             <h1>Resources For You</h1>
             <Link href='/'>&#9001; Back</Link>
-        </Layout>
+        </div>
     )
 }
