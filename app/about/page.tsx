@@ -2,9 +2,19 @@ import * as React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import styles from '@/styles/Home.module.css';
-// import ImageCarousel from '@/components/imageCarousel';
+import ImageCarousel from '@/components/imageCarousel';
+
+type ImageProps = {
+    id: number,
+    src: string,
+    alt: string,
+    width?: number,
+    height?: number,
+}
 
 export default function Page() {
+    const images: ImageProps[] = loadPhotos();
+
     return (
         <div>
             <h1 className={styles.title}>About Me</h1>
@@ -36,8 +46,23 @@ export default function Page() {
                     Every medium: acrylic, watercolor, yarn, felt, henna, dance, florals, baking, you name it.
                     Here&lsquo;s some examples of my art:
                 </p>
-                {/* <ImageCarousel /> */}
+                <ImageCarousel data={images} />
             </div>
         </div>
     )
+}
+
+function loadPhotos(): ImageProps[] {
+    const images = [];
+    for (let index = 1; index <= 40; index++) {
+        const image = `/images/art/${index}.jpg`;
+        images.push({
+            id: index,
+            src: image,
+            alt: "art by sam",
+            width: 400,
+            height: 400,
+        });
+    }
+    return images;
 }
