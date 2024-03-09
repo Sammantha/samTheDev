@@ -24,7 +24,7 @@ export default function Page() {
                 src={'/images/wordcloud.png'}
                 width="800"
                 height="500"
-                priority={true}
+                priority
             />
 
             <div>

@@ -9,7 +9,7 @@ import { data } from '@/api/projects';
 export default function Page() {
     return (
         <div>
-            <h1>Personal Projects</h1>
+            <h1 className={styles.title}>Personal Projects</h1>
             <Link href='/' >&#9001; Back </Link>
             <Button className={styles.gitHubButton} size="small" >
                 <Link className={styles.noDecor} href="https://github.com/Sammantha" target="_blank" >

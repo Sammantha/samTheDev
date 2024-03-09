@@ -1,5 +1,87 @@
 export const data = {
     jobs: [
+        // Template:
+        // {
+        //     buttonLink: "https://",
+        //     buttonText: "company.com",
+        //     description1: `
+        //          <p>
+        //          </p>
+        //          <p>Big Achievement #1 <small>(202X)</small></p>
+        //          <ul>
+        //              <li>Description</li>
+        //              <li>
+        //                  <strong>My contribution: </strong>My contribution here
+        //              </li>
+        //              <li>
+        //                  <strong>Tech & Tools: </strong>AWS (Lambda, etc), NodeJS
+        //              </li>
+        //          </ul>
+        //     `,
+        //     image: "/images/company_logo.png",
+        //     imageAlt: "Company logo",
+        //     title: "Company Name",
+        //     subtitle: "",
+        //     skills: [
+        //         ["Skill", "Percentage of time spent on that skill at this position"],
+        //         ["Skill 1", 60],
+        //         ["Skill 2", 20],
+        //         ["Skill 3", 20]
+        //     ],
+        //     pieColors: ["#0000", "#1111", "#101010"],
+        //     years: "Y Years: Season 202X - Season 202X"
+        // },
+        {
+            buttonLink: "https://paretohealth.com/",
+            buttonText: "paretohealth.com",
+            description1: `
+                <p>
+                    I am currently a Software Engineer with Pareto Health. I work remotely on a team of about 10 engineers.
+                    Within my first 2 months here I earned my first AWS certification: Cloud Practitioner. 
+                    At 5 months I was trusted with an EPIC for a feature the seniors didn't have the bandwidth to complete.
+                    At 7 months I was given my own EPIC to work on tightening security in our cloud environment.
+                    I'm very happy here and looking forward to growing into a senior!
+                </p>
+                <p>Self Funded <small>(2023)</small></p>
+                <ul>
+                    <li>I added parallel logic in our API for self-funded (as opposed to fully-funded) insurance clients, which have different inputs, outputs, and calculation logic.</li>
+                    <li>
+                        <strong>My contribution: </strong>The lead for this project started me off and then gave me the keys. 
+                        I was in charge of interfacing with Product to clarify or adjust wants, updating the API and its tests with appropriate logic, 
+                        adding conditional fields to the UI, and pushing changes to both our testing and production environments. 
+                    </li>
+                    <li>
+                        <strong>Tech & Tools: </strong>AWS (Lambda, RDS), Typescript, GraphQL, MySQL, Angular, Ionic
+                    </li>
+                </ul>
+
+                <p>Security/Infra Review <small>(2024)</small></p>
+                <ul>
+                    <li>Given our AWS Security Hub Findings, I was tasked with solving as many potential security improvements as I could as quickly as possible.</li>
+                    <li>
+                        <strong>My contribution: </strong>I authored a Lambda to consolidate the AWS Security Hub Findings into an Excel file with only the useful information.
+                        Then I used this data to fill my EPIC with the most critical and most numerous reports. 
+                        The meat of this project is to track down the offending code repo, resolve the problem in Infrastructure As Code, and deploy the Code Pipeline to all environments.
+                        This project is still In-Progress. As of March 2024, I have resolved 185+ Findings and learned much about the AWS SDK & CDK.
+                    </li>
+                    <li>
+                        <strong>Tech & Tools: </strong>AWS (Lambda, S3, VPN, EC2, CloudFront), Typescript
+                    </li>
+                </ul>
+            `,
+            image: "/images/paretohealth_logo.jpeg",
+            imageAlt: "Pareto Health logo",
+            title: "Pareto Health",
+            subtitle: "Software Engineer",
+            skills: [
+                ["Skill", "Percentage of time spent on that skill at this position"],
+                ["Infrastructure", 20],
+                ["Back End", 50],
+                ["Front End", 30]
+            ],
+            pieColors: ["#10ABBC", "#82D264", "#101F4F"],
+            years: "Summer 2023 - Present"
+        },
         {
             buttonLink: "https://www.circulohealth.com/#card-0",
             buttonText: "circulohealth.com",
