@@ -14,7 +14,7 @@ export const data = {
                         </ul>
                     </p>
                     `,
-            image: "/images/developer_journey.png",
+            image: "/images/developerJourney.png",
             imageAlt: "Screenshot of Google Doc",
             title: "Developer Journey",
             subtitle: "Spring 2024",
