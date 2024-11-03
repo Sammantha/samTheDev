@@ -28,7 +28,7 @@ export default function Layout({
                 <main role='main'>
                     <div className={styles.container}>{children}</div>
                 </main>
-                <footer className={styles.footer}>
+                <footer>
                     <a
                         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
                         target="_blank"
