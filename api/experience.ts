@@ -39,6 +39,8 @@ export const data = {
                     I am currently a Software Engineer with Pareto Health. I work remotely on a dev team of about 10 engineers.
                     Within my first 2 months here I earned my first AWS certification: Cloud Practitioner. 
                     Before my 1-year mark I was trusted with an EPIC for a feature the seniors didn't have the bandwidth to complete AND my own EPIC to work on tightening security in our cloud environment.
+                </p>
+                <p>
                     I'm a full-stack engineer, so my solutions can often include DB migration scripts, new API endpoints, new source PDFs stored in S3, new front-end pages, and new Lambdas.
                     To contribute to the team I create and update documentation, assist juniors with their tickets and blockers, and teach the product to new SDETs and product analysts.
                 </p>
