@@ -19,7 +19,7 @@ export default function Page() {
                         width={30}
                         height={30}
                     />
-                     My GitHub
+                    My GitHub
                 </Link>
             </Button>
 

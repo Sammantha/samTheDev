@@ -7,7 +7,7 @@ export default function Page() {
     <div>
       <h1 className={styles.title} >Hi, I&#39;m Sam!</h1>
       <p className={styles.description} >
-        Welcome to my portfolio!
+        Welcome to my portfolio
       </p>
 
       <div>

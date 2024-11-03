@@ -76,7 +76,10 @@ button.gitHubButton {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  margin-right: 10px;
+}
+
+button.gitHubButton img {
+  margin-right: 0.5rem;
 }
 
 .card {
