@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div>
-      <h1 className={styles.title} >Hi, I&lsquo;m Sam</h1>
+      <h1 className={styles.title} >Hi, I&#39;m Sam!</h1>
       <p className={styles.description} >
         Welcome to my portfolio!
       </p>
@@ -18,7 +18,7 @@ export default function Page() {
 
         <Link href='projects' className={styles.card} >
           <h3>Personal Projects &rarr; </h3>
-          <p> Demo projects I&lsquo;ve worked on and visit my GitHub.</p>
+          <p> Demo projects I&#39;ve worked on and visit my GitHub.</p>
         </Link>
 
         <Link
@@ -35,7 +35,7 @@ export default function Page() {
         >
           <h3>Resources For You &rarr; </h3>
           <p>
-            Things I&lsquo;ve found or created that worked for me - and I want to share them with you!
+            Things I&#39;ve found or created that worked for me - and I want to share them with you!
           </p>
         </Link>
       </div>
