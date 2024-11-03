@@ -1,10 +1,10 @@
 import * as React from 'react';
-import styles from '@/styles/Home.module.css';
 import { Metadata } from 'next'
 import Image from 'next/image';
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Newsreader } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Newsreader } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
 import './globals.css';
  
 // If loading a variable font, you don't need to specify the font weight
