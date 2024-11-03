@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div>
-      <h1 className={styles.title} >Hi, I&lsquo;m Sam 👋</h1>
+      <h1 className={styles.title} >Hi, I'm Sam</h1>
       <p className={styles.description} >
         Welcome to my portfolio!
       </p>

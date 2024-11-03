@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: black;
-  color: white;
+  background-color: #0C1117;
+  color: #f0f6fc;
 }
 
 main {
@@ -13,13 +13,16 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
 }
 
 a {
   color: inherit;
   text-decoration: none;
   color: lightgray;
+}
+
+a::after {
+  color: lightslategray;
 }
 
 * {
