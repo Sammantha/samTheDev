@@ -36,12 +36,13 @@ export const data = {
             buttonText: "paretohealth.com",
             description1: `
                 <p>
-                    I am currently a Software Engineer with Pareto Health. I work remotely on a team of about 10 engineers.
+                    I am currently a Software Engineer with Pareto Health. I work remotely on a dev team of about 10 engineers.
                     Within my first 2 months here I earned my first AWS certification: Cloud Practitioner. 
-                    At 5 months I was trusted with an EPIC for a feature the seniors didn't have the bandwidth to complete.
-                    At 7 months I was given my own EPIC to work on tightening security in our cloud environment.
-                    I'm very happy here and looking forward to growing into a senior!
+                    Before my 1-year mark I was trusted with an EPIC for a feature the seniors didn't have the bandwidth to complete AND my own EPIC to work on tightening security in our cloud environment.
+                    I'm a full-stack engineer, so my solutions can often include DB migration scripts, new API endpoints, new source PDFs stored in S3, new front-end pages, and new Lambdas.
+                    To contribute to the team I create and update documentation, assist juniors with their tickets and blockers, and teach the product to new SDETs and product analysts.
                 </p>
+
                 <p>Self Funded <small>(2023)</small></p>
                 <ul>
                     <li>I added parallel logic in our API for self-funded (as opposed to fully-funded) insurance clients, which have different inputs, outputs, and calculation logic.</li>
@@ -62,7 +63,7 @@ export const data = {
                         <strong>My contribution: </strong>I authored a Lambda to consolidate the AWS Security Hub Findings into an Excel file with only the useful information.
                         Then I used this data to fill my EPIC with the most critical and most numerous reports. 
                         The meat of this project is to track down the offending code repo, resolve the problem in Infrastructure As Code, and deploy the Code Pipeline to all environments.
-                        This project is still In-Progress. As of March 2024, I have resolved 185+ Findings and learned much about the AWS SDK & CDK.
+                        This project is still In-Progress. As of March 2024, I resolved 185+ Findings and learned much about the AWS SDK & CDK.
                     </li>
                     <li>
                         <strong>Tech & Tools: </strong>AWS (Lambda, S3, VPN, EC2, CloudFront), Typescript
@@ -76,10 +77,11 @@ export const data = {
             skills: [
                 ["Skill", "Percentage of time spent on that skill at this position"],
                 ["Infrastructure", 20],
-                ["Back End", 50],
-                ["Front End", 30]
+                ["Back End", 35],
+                ["Front End", 25],
+                ["Documentation, Un-blocking, Team-work", 20]
             ],
-            pieColors: ["#10ABBC", "#82D264", "#101F4F"],
+            pieColors: ["#10ABBC", "#82D264", "#00ECCA", "#101F4F"],
             years: "Summer 2023 - Present"
         },
         {
