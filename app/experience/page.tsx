@@ -2,7 +2,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import ExperienceCard from '../components/experienceCard';
 import { data } from '../../api/experience';
-import styles from '@/styles/styles.module.css'
+import styles from '@/styles/Home.module.css';
 
 export default function Page() {
     return (
