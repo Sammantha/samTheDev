@@ -11,17 +11,17 @@ export default function Page() {
         <div>
             <h1 className={styles.title}>Personal Projects</h1>
             <Link href='/' >&#9001; Back </Link>
-            <Button className={styles.gitHubButton} size="small" >
-                <Link className={styles.noDecor} href="https://github.com/Sammantha" target="_blank" >
+            <Link className={styles.noDecor} href="https://github.com/Sammantha" target="_blank" >
+                <Button className={styles.gitHubButton} size="small" >
                     <Image
                         alt="github logo"
                         src="/images/github.png"
                         width={30}
                         height={30}
                     />
-                    My GitHub
-                </Link>
-            </Button>
+                </Button>
+                My GitHub
+            </Link>
 
             {
                 data.projects.map((project) => {
