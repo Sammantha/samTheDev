@@ -6,8 +6,10 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        'plugin:@next/next/recommended',
+        "plugin:@next/next/recommended",
         "plugin:react/recommended",
+        "next/core-web-vitals",
+        "plugin:eslint-plugin-next-on-pages/recommended"
     ],
     "overrides": [
         {
@@ -33,6 +35,7 @@ module.exports = {
     "plugins": [
         "@typescript-eslint",
         "react",
+        "eslint-plugin-next-on-pages"
     ],
     "rules": {
         "react/jsx-uses-react": "error",
