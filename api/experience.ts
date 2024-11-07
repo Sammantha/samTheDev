@@ -1,3 +1,5 @@
+// for Cloudflare
+export const runtime = 'edge';
 export const data = {
     jobs: [
         // Template:
