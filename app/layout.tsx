@@ -6,6 +6,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Newsreader } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import './globals.css';
+export const runtime = 'edge';
  
 // If loading a variable font, you don't need to specify the font weight
 const newsreader = Newsreader({
