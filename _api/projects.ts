@@ -1,5 +1,3 @@
-// for Cloudflare
-export const runtime = 'edge';
 export const data = {
     projects: [
         {
