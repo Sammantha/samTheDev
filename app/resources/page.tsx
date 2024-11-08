@@ -1,7 +1,7 @@
 import Link from "next/link";
 import * as React from 'react';
 import styles from '@/styles/Home.module.css';
-import { data } from '@/api/resources';
+import { data } from '_api/resources';
 import ProjectCard from "../components/projectCard";
 
 export default function Page() {

@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 import ProjectCard from "../components/projectCard";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import { data } from '@/api/projects';
+import { data } from '_api/projects';
 
 export default function Page() {
     return (
