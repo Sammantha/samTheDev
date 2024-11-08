@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "browser": true,
         "es2021": true
@@ -10,19 +10,6 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:eslint-plugin-next-on-pages/recommended"
     ],
-    "overrides": [
-        {
-            "env": {
-                "node": true
-            },
-            "files": [
-                ".eslintrc.{js,cjs}"
-            ],
-            "parserOptions": {
-                "sourceType": "script"
-            }
-        }
-    ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
@@ -33,15 +20,16 @@ module.exports = {
     },
     "plugins": [
         "@typescript-eslint",
-        "react"
+        "react",
+        "eslint-plugin-next-on-pages"
     ],
     "rules": {
         "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error",
+        "react/jsx-uses-vars": "error"
     },
     "settings": {
         "react": {
-            "version": "detect", // React version. "detect" automatically picks the version you have installed.
+            "version": "detect" // React version. "detect" automatically picks the version you have installed.
                                 // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
                                 // It will default to "latest" and warn if missing, and to "detect" in the future
         }
