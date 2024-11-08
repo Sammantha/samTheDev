@@ -12,7 +12,7 @@ export const data = {
                         <ul>
                             <li>showcase a live working demo of all my projects</li>
                             <li>make sure my website is accessible to all abilities</li>
-                            <li>give the option for users to browse in "green mode" which uses less resources</li>
+                            <li>provide different styling light/dark modes</li>
                             <li>really get into styling and some animations</li>
                         </ul>
                     </p>
@@ -20,7 +20,7 @@ export const data = {
                     <ul>
                         <li><strong>Back End: </strong>No DB yet, NextJS framework with JavaScript</li>
                         <li><strong>Front End: </strong>Next JS framework with JavaScript, React</li>
-                        <li><strong>Cloud Services: </strong>Vercel</li>
+                        <li><strong>Cloud Services: </strong>Cloudflare</li>
                     </ul>
                     `,
             image: "/images/portfolio.png",
