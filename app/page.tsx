@@ -1,6 +1,8 @@
 import * as React from 'react';
 import styles from '@/styles/Home.module.css';
 import Link from 'next/link';
+// for Cloudflare
+export const runtime = 'edge';
 
 export default function Page() {
   return (

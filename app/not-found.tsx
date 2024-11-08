@@ -1,5 +1,7 @@
 import * as React from 'react';
 import Link from 'next/link'
+// for Cloudflare
+export const runtime = 'edge';
 
 export default function NotFound() {
     return (
