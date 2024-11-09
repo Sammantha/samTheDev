@@ -30,7 +30,7 @@ export default function Layout({
                 <footer>
                     <div>
                         <a target="_blank" href="https://www.linkedin.com/in/sam-vonbergen/">
-                            <svg viewBox="-2 -2 24.00 24.00" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="currentColor" stroke-width="0.82">
+                            <svg viewBox="-2 -2 24.00 24.00" xmlns="http://www.w3.org/2000/svg" fill="#e8eaed" stroke="#e8eaed" stroke-width="0.82">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                 <g id="SVGRepo_iconCarrier">
