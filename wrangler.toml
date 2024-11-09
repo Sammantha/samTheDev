@@ -1,4 +1,8 @@
 name = "sam-the-dev"
 compatibility_date = "2024-07-29"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".next/static"
+workers_dev = false
+route = "samthedev.com/*"
+[build]
+command = "npx next build"
+pages_build_output_dir = "out"

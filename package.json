@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "vercel-build": "next build",
     "lint": "next lint",
     "pages:build": "npx @cloudflare/next-on-pages",
     "preview": "npm run pages:build && wrangler pages dev",
