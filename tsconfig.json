@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "preserve",
+    "outDir": "./out",
     "paths": {
       "@/api/*": [
         "_api/*"
