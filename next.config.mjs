@@ -6,7 +6,7 @@ import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
  */
 const nextConfig = {
   /* config options here */
-  distDir: 'out' // Change the output directory to 'build'
+  output: 'out' // Change the output directory to 'build'
 }
 
 if (process.env.NODE_ENV === 'development') {
