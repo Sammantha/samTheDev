@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { Metadata } from 'next'
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Newsreader } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import './globals.css';
@@ -29,8 +27,6 @@ export default function Layout({
                 </main>
                 <footer>
                 </footer>
-                <Analytics />
-                <SpeedInsights />
             </body>
         </html>
     );
