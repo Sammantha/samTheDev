@@ -40,7 +40,6 @@ export default function Layout({
                                     </g>
                                 </g>
                             </svg>
-                            Sam Vonbergen
                         </a>
                     </div>
                     <div>
@@ -52,7 +51,6 @@ export default function Layout({
                                 <use xlinkHref="#wing" className="left" />
                                 <use xlinkHref="#wing" className="right" />
                             </svg>
-                            @samthedev.bsky.social
                         </a>
                     </div>
                 </footer>
