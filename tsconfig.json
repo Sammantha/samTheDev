@@ -2,7 +2,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "preserve",
-    "outDir": "./dist",
     "paths": {
       "@/api/*": [
         "_api/*"
@@ -39,10 +38,10 @@
   },
   "include": [
     "next-env.d.ts",
+    ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
     "next.config.mjs",
-    "build/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
