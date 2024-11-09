@@ -7,4 +7,8 @@ const nextConfig = {};
    await setupDevPlatform();
  }
 
+  module.exports = {
+    distDir: 'build' // Change the output directory to 'build'
+  }
+
 export default nextConfig;
