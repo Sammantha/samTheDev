@@ -18,7 +18,7 @@ export const data = {
         //              </li>
         //          </ul>
         //     `,
-        //     image: "/images/company_logo.png",
+        //     image: "images/company_logo.png",
         //     imageAlt: "Company logo",
         //     title: "Company Name",
         //     subtitle: "",
@@ -72,7 +72,7 @@ export const data = {
                     </li>
                 </ul>
             `,
-            image: "/images/paretohealth_logo.jpeg",
+            image: "images/paretohealth_logo.jpeg",
             imageAlt: "Pareto Health logo",
             title: "Pareto Health",
             subtitle: "Software Engineer",
@@ -147,7 +147,7 @@ export const data = {
                             </li>
                         </ul>
                     `,
-            image: "/images/circulo_logo.jpeg",
+            image: "images/circulo_logo.jpeg",
             imageAlt: "Circulo logo",
             title: "Circulo Health",
             subtitle: "Software Engineer II",
@@ -223,7 +223,7 @@ export const data = {
                             <li>Technology and tools I used for the legacy application included: CodeIgniter, PHP, HTML, CSS, and jQuery</li>
                         </ul>
                     `,
-            image: "/images/webbuy_logo.png",
+            image: "images/webbuy_logo.png",
             imageAlt: "WebBuy logo",
             title: "Webgrain & WebBuy",
             subtitle: "Web App Developer",
@@ -267,7 +267,7 @@ export const data = {
                         On their website below you'll see games like Buffalo Keno, Longhorn Reels, Enchanted Keno, Sparkling Royale, Wild Lepre'Coins, etc. 
                         I helped perfect all the above games and some of their adaptations to other types (poker, keno, reel) and other states (Nevada, Lousiana, West Virginia).</p>
                     `,
-            image: "/images/gvg_logo.jpg",
+            image: "images/gvg_logo.jpg",
             imageAlt: "grand vision gaming logo",
             title: "Grand Vision Gaming",
             subtitle: "Quality Assurance Lead",
