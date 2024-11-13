@@ -23,7 +23,7 @@ export const data = {
                         <li><strong>Cloud Services: </strong>Cloudflare</li>
                     </ul>
                     `,
-            image: "/images/portfolio.png",
+            image: "images/portfolio.png",
             imageAlt: "Screenshot of portfolio project",
             title: "Developer Portfolio",
             subtitle: "Spring 2023 - Currently In-Progress!",
@@ -50,7 +50,7 @@ export const data = {
                         <li><strong>Cloud Services: </strong>Digital Ocean Hosting using App Platform and Spaces</li>
                     </ul>
                     `,
-            image: "/images/classynsassy.png",
+            image: "images/classynsassy.png",
             imageAlt: "Screenshot of inventory project",
             title: "Warehouse Inventory Tracking System",
             subtitle: "Summer 2021 - Present",
