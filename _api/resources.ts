@@ -3,7 +3,7 @@ export const data = {
         {
             id: 2,
             buttonLink: "https://docs.google.com/spreadsheets/d/1UYiPifu2LD2vCftK3IMNBVYdjXYDFJCaspjkjjoCTRA/edit?usp=sharing",
-            buttonText: "View the Sheet!",
+            buttonText: "View the Google Sheet here!",
             description: `
                     <p>
                         Tracking your applications ensures your organization and success on the job hunt. 
@@ -22,7 +22,7 @@ export const data = {
         {
             id: 1,
             buttonLink: "https://docs.google.com/document/d/1zRC5iB2wZHzEImxES3lLQMi7bkVvQNLYWM5-n6q3Rxc/edit?usp=sharing",
-            buttonText: "View the Doc!",
+            buttonText: "View the Google Doc here!",
             description: `
                     <p>
                         The Developer Journey is a great way to track your accomplishments throughout your career. 
