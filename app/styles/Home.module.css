@@ -163,3 +163,7 @@ button.gitHubButton img {
 .cardOutline {
   margin: 0.5rem auto;
 }
+
+.darkLink {
+  color: #202124;
+}

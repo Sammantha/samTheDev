@@ -21,7 +21,7 @@ export default function Page() {
             <Link href='/'>&#9001; Back</Link>
             <Image
                 alt="A word cloud of common words Sam would describe herself with, like gardener, zoo member, D&D player, and artist."
-                src={'images/wordcloud.png'}
+                src={'/images/wordcloud.png'}
                 width="800"
                 height="500"
                 priority
