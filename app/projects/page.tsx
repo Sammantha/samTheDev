@@ -14,8 +14,8 @@ export default function Page() {
             <Button className={styles.gitHubButton} size="small" >
                 <Link className={styles.noDecor} href="https://github.com/Sammantha" target="_blank" >
                     <Image
-                        alt="github logo"
-                        src="/images/github.png"
+                        alt="Github logo"
+                        src="images/github.png"
                         width={30}
                         height={30}
                     />

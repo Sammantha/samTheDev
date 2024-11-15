@@ -115,7 +115,7 @@ export default function ExperienceCard(props: ExperienceCardProps) {
             </CardContent>
             <CardActions>
                 <Button size="small">
-                    <Link href={props?.buttonLink} target='_blank'>{props?.buttonText}</Link>
+                    <Link color={props?.pieColors[0]} href={props?.buttonLink} target='_blank'>{props?.buttonText}</Link>
                 </Button>
             </CardActions>
         </Card>

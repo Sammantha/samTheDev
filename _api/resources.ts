@@ -8,9 +8,9 @@ export const data = {
                     <p>
                         Tracking your applications ensures your organization and success on the job hunt. 
                         <ul>
-                            <li>Highlight the aspects of the positions you like/dislike to help make your final decision/li>
-                            <li>Remind yourself of the details of the position in the minutes before interviews</li>
                             <li>Nail down what you care about when interviewing companies, managers, and teams</li>
+                            <li>Highlight the aspects of the positions you like/dislike to help make your final decision</li>
+                            <li>Remind yourself of the details of the position in the minutes before interviews</li>
                         </ul>
                     </p>
                     `,

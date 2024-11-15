@@ -181,32 +181,32 @@ export const data = {
                 `,
             examples: [
                 {
-                    "src": "/images/weave.png",
-                    "alt": "Weave Transportation's Homepage",
+                    "src": "images/weave.png",
+                    "alt": "A screenshot of Weave Transportation's website",
                     "link": "https://weaveind.com/",
                     "caption": "Weave Transportation: A local trucking company's informational website"
                 },
                 {
-                    "src": "/images/ostlunds.png",
-                    "alt": "Ostlund's Fire Protection Homepage",
+                    "src": "images/ostlunds.png",
+                    "alt": "A screenshot of Ostlund's Fire Protection website",
                     "link": "https://ofp.cc/",
                     "caption": "Ostlund's Fire Protection: A local fire safety device installation company's informational website"
                 },
                 {
-                    "src": "/images/highTech.png",
-                    "alt": "High Tech Solutions Group's Featured Projects Page",
+                    "src": "images/highTech.png",
+                    "alt": "A screenshot of High Tech Solutions Group's website",
                     "link": "https://hts-sg.com/",
                     "caption": "High Tech Solutions: A local safety & security company's informational website"
                 },
                 {
-                    "src": "/images/susanBryan.png",
-                    "alt": "Susan Bryan Studios Gallery Page",
+                    "src": "images/susanBryan.png",
+                    "alt": "A screenshot of Susan Bryan Studios website",
                     "link": "https://susanbryanstudios.com/",
                     "caption": "Susan Bryan Studios: a local oil artist's ecommerce and portfolio site"
                 },
                 {
-                    "src": "/images/ontherox.png",
-                    "alt": "On The Rox Homepage",
+                    "src": "images/ontherox.png",
+                    "alt": "A screenshot of On The Rox website",
                     "link": "https://ontheroxfab.com/",
                     "caption": "On the Rox Fabrication: a Roxor special interest group's ecommerce and guide site"
                 }
@@ -268,7 +268,7 @@ export const data = {
                         I helped perfect all the above games and some of their adaptations to other types (poker, keno, reel) and other states (Nevada, Lousiana, West Virginia).</p>
                     `,
             image: "images/gvg_logo.jpg",
-            imageAlt: "grand vision gaming logo",
+            imageAlt: "Grand Vision Gaming logo",
             title: "Grand Vision Gaming",
             subtitle: "Quality Assurance Lead",
             skills: [

@@ -20,8 +20,8 @@ export default function Page() {
             <h1 className={styles.title}>About Me</h1>
             <Link href='/'>&#9001; Back</Link>
             <Image
-                alt="A word cloud of common words Sam would describe herself with, like gardener, zoo member, and artist."
-                src={'/images/wordcloud.png'}
+                alt="A word cloud of common words Sam would describe herself with, like gardener, zoo member, D&D player, and artist."
+                src={'images/wordcloud.png'}
                 width="800"
                 height="500"
                 priority
@@ -55,7 +55,7 @@ export default function Page() {
 function loadPhotos(): ImageProps[] {
     const images = [];
     for (let index = 1; index <= 40; index++) {
-        const image = `/images/art/${index}.jpg`;
+        const image = `images/art/${index}.jpg`;
         images.push({
             id: index,
             src: image,
