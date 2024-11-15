@@ -15,7 +15,7 @@ export default function Page() {
                 <Link className={styles.noDecor} href="https://github.com/Sammantha" target="_blank" >
                     <Image
                         alt="Github logo"
-                        src="images/github.png"
+                        src="/images/github.png"
                         width={30}
                         height={30}
                     />
