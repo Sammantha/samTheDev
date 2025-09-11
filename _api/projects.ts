@@ -26,7 +26,7 @@ export const data = {
             image: "images/portfolio.png",
             imageAlt: "Screenshot of portfolio project",
             title: "Developer Portfolio",
-            subtitle: "Spring 2023 - Currently In-Progress!",
+            subtitle: "Spring 2023 - Present",
         },
         {
             id: 2,

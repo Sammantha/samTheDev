@@ -30,7 +30,7 @@ export default function Page() {
             <div>
                 <p>
                     I live in the largest city in the state of Montana, Billings, boasting a population of 100,000.
-                    I&lsquo;ve lived in Billings for 12 years, and it has truly become my home.
+                    I&lsquo;ve lived in Billings for 14 years, and it has truly become my home.
                     I went to college here and started my career in the heart of Downtown.
                     I enjoy the farmer&lsquo;s markets in the summer and making various snow animals in the winter.
                     I love it here and I don&lsquo;t think I&lsquo;ll ever leave!

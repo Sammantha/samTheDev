@@ -37,15 +37,61 @@ export const data = {
             description1: `
                 <p>
                     I am currently a Software Engineer with Pareto Health. I work remotely on a dev team of about 10 engineers.
-                    Within my first 2 months here I earned my first AWS certification: Cloud Practitioner. 
-                    Before my 1-year mark I was trusted with an EPIC for a feature the seniors didn't have the bandwidth to complete AND my own EPIC to work on tightening security in our cloud environment.
+                    My day-to-day involves daily standups, working on tickets, testing in different environments, discussing solution architecture, and reviewing PRs. 
                 </p>
                 <p>
-                    I'm a full-stack engineer, so my solutions can often include DB migration scripts, new API endpoints, new source PDFs stored in S3, new front-end pages, and new Lambdas.
+                    I'm a full-stack engineer, so my solutions can often include DB migration scripts, new API endpoints, new Lambdas, new source PDFs stored in S3, and new front-end pages and components.
                     To contribute to the team I create and update documentation, assist juniors with their tickets and blockers, and teach the product to new SDETs and product analysts.
                 </p>
 
-                <p>Self Funded <small>(2023)</small></p>
+                <p>Report Overhaul Project <small>(early 2025)</small></p>
+                <ul>
+                    <li>Multiple projects to create new branded PDFs to be given by our clients showing calculations and margins</li>
+                    <li>
+                        <strong>My contribution: </strong>I was lead on all PDF projects and am considered one of two PDF expert on the team.
+                        These PDFs were: Indication Report (a total redesign numbering 40 pages), Implementation Overview (replaced an Excel file), Renewal Proposal (completely new PDF), 
+                        and Clinical Review (compltely new PDF).
+                        I interfaced with Design to create the PDF and put dynamic fields in the correct places. I interfaced with Product to ensure all
+                        fields had appropriate backups, dynamic pagination, calculations based on carrier, and find solutions to hiding fields and whole pages.
+                        I also authored "stubs" so anyone can generate any type of PDF from inside the API repo as long as they feed the stub the correct data.
+                    </li>
+                    <li>
+                        <strong>Tech & Tools: </strong>Adobe, pdf-lib, chartJS, Typescript, NodeJS, GraphQL
+                    </li>
+                </ul>
+
+                <p>Carrier Integration <small>(late 2024)</small></p>
+                <ul>
+                    <li>Myself, a senior, and another mid-level dev were put in charge of creating integrations with 3rd party insurance carriers</li>
+                    <li>
+                        <strong>My contribution: </strong>I implemented functions to call third-parties based on selected insurance carrier and now maintain them.
+                        The senior recommended we build a middleware. At first I stubbed out functions, then I was put in charge of a specific carrier and filled out the logic to call their API. 
+                        After the senior in charge of this project left the company, the other mid-level dev and I were put in charge of maintaining the carrier integrations.
+                        There are tickets daily (still in late 2025) to fine-tune what we send to and what we extract from the carrier APIs.
+                        I have completed work that involves calling new endpoints, extracting information from a quote into a PDF, and implementing logic to achieve the 
+                        company goal of being able to quote a client without any personal interaction with the Carrier whatsoever.
+                        I also authored documentation explaining the flow of data from the Carrier's point of view and explaining our internal logic for the endpoints we call and in what order.
+                    </li>
+                    <li>
+                        <strong>Tech & Tools: </strong>AWS (Lambda), Typescript, GraphQL, MySQL
+                    </li>
+                </ul>
+
+                <p>Security/Infra Review <small>(early 2024)</small></p>
+                <ul>
+                    <li>Given our AWS Security Hub Findings, I was tasked with solving as many potential security improvements as I could as quickly as possible.</li>
+                    <li>
+                        <strong>My contribution: </strong>I authored a Lambda to consolidate the AWS Security Hub Findings into an Excel file with only the useful information.
+                        Then I used this data to fill my EPIC with the most critical and most numerous reports. 
+                        The meat of this project is to track down the offending code repo, resolve the problem in Infrastructure As Code, and deploy the Code Pipeline to all environments.
+                        By the end of the project in March 2024, I resolved 185+ Findings and learned much about the AWS SDK & CDK.
+                    </li>
+                    <li>
+                        <strong>Tech & Tools: </strong>AWS (Lambda, S3, VPN, EC2, CloudFront), Typescript
+                    </li>
+                </ul>
+
+                <p>Self Funded <small>(late 2023)</small></p>
                 <ul>
                     <li>I added parallel logic in our API for self-funded (as opposed to fully-funded) insurance clients, which have different inputs, outputs, and calculation logic.</li>
                     <li>
@@ -57,20 +103,6 @@ export const data = {
                         <strong>Tech & Tools: </strong>AWS (Lambda, RDS), Typescript, GraphQL, MySQL, Angular, Ionic
                     </li>
                 </ul>
-
-                <p>Security/Infra Review <small>(2024)</small></p>
-                <ul>
-                    <li>Given our AWS Security Hub Findings, I was tasked with solving as many potential security improvements as I could as quickly as possible.</li>
-                    <li>
-                        <strong>My contribution: </strong>I authored a Lambda to consolidate the AWS Security Hub Findings into an Excel file with only the useful information.
-                        Then I used this data to fill my EPIC with the most critical and most numerous reports. 
-                        The meat of this project is to track down the offending code repo, resolve the problem in Infrastructure As Code, and deploy the Code Pipeline to all environments.
-                        This project is still In-Progress. As of March 2024, I resolved 185+ Findings and learned much about the AWS SDK & CDK.
-                    </li>
-                    <li>
-                        <strong>Tech & Tools: </strong>AWS (Lambda, S3, VPN, EC2, CloudFront), Typescript
-                    </li>
-                </ul>
             `,
             image: "images/paretohealth_logo.jpeg",
             imageAlt: "Pareto Health logo",
@@ -79,8 +111,8 @@ export const data = {
             skills: [
                 ["Skill", "Percentage of time spent on that skill at this position"],
                 ["Infrastructure", 20],
-                ["Back End", 35],
-                ["Front End", 25],
+                ["Back End", 30],
+                ["Front End", 30],
                 ["Documentation, Un-blocking, Team-work", 20]
             ],
             pieColors: ["#10ABBC", "#82D264", "#00ECCA", "#101F4F"],
