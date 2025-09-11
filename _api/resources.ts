@@ -1,6 +1,25 @@
 export const data = {
     resources: [
         {
+            id: 3,
+            buttonLink: "https://docs.google.com/spreadsheets/d/1Uka1FC1XXSGlLWr-uwNsfRpWIi4UG5SfTwYdYuB3LJg/edit?usp=sharing",
+            buttonText: "View the Google Sheet here!",
+            description: `
+                    <p>
+                        Tracking your tickets ensures you are the subject-matter-expert on your work and efficiency. 
+                        <ul>
+                            <li>Quickly locate a reason for why a ticket you did a month+ ago took so long/went so well when your manager asks</li>
+                            <li>See emerging patterns in how many tickets you worked on in the last month and how that compares to other months (compare to LinearB, a paid service)</li>
+                            <li>Compare how quickly you're getting work out month-to-month and see patterns in what's slowing you down</li>
+                        </ul>
+                    </p>
+                    `,
+            image: "images/ticketTracker.png",
+            imageAlt: "Screenshot of Google Sheet",
+            title: "Ticket Tracker",
+            subtitle: "Fall 2025",
+        },
+        {
             id: 2,
             buttonLink: "https://docs.google.com/spreadsheets/d/1UYiPifu2LD2vCftK3IMNBVYdjXYDFJCaspjkjjoCTRA/edit?usp=sharing",
             buttonText: "View the Google Sheet here!",
