@@ -20,7 +20,7 @@ export const data = {
                         <li><strong>Cloud Services: </strong>CloudFlare for hosting</li>
                     </ul>
                     `,
-            image: "images/vbPositionScraper.png",
+            image: "/images/vbPositionScraper.png",
             imageAlt: "Screenshot of open position scraper project",
             title: "FullStack Open Position Scraper & Aggregator",
             subtitle: "Summer 2025 - Present",
@@ -47,7 +47,7 @@ export const data = {
                         <li><strong>Cloud Services: </strong>CloudFlare</li>
                     </ul>
                     `,
-            image: "images/portfolio.png",
+            image: "/images/portfolio.png",
             imageAlt: "Screenshot of developer portfolio project",
             title: "Developer Portfolio",
             subtitle: "Spring 2023 - Present",
@@ -74,7 +74,7 @@ export const data = {
                         <li><strong>Cloud Services: </strong>Digital Ocean Hosting using App Platform and Spaces</li>
                     </ul>
                     `,
-            image: "images/classynsassy.png",
+            image: "/images/classynsassy.png",
             imageAlt: "Screenshot of inventory project",
             title: "Warehouse Inventory Tracking System",
             subtitle: "Summer 2021 - Present",

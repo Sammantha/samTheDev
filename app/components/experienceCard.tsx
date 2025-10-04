@@ -40,10 +40,6 @@ type ImageLoaderProps = {
     quality?: number,
 }
 
-const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
-    return `https://samthedev.com/${src}?w=${width}&q=${quality || 75}`
-}
-
 export default function ExperienceCard(props: ExperienceCardProps) {
     const sanitizedProps = {
         description1: props?.description1 ?? null,
@@ -70,7 +66,6 @@ export default function ExperienceCard(props: ExperienceCardProps) {
                 </Typography>
                 <div id="top layer" className={styles.cardContent}>
                     <Image
-                        loader={imageLoader}
                         src={props?.image}
                         alt={props?.imageAlt}
                         width={150}
@@ -95,7 +90,6 @@ export default function ExperienceCard(props: ExperienceCardProps) {
                                 <div className={styles.exampleImage} key={`example_${index}`}>
                                     <Link href={example.link} >
                                         <Image
-                                            loader={imageLoader}
                                             src={example.src}
                                             alt={example.alt}
                                             width={200}

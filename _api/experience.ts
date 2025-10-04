@@ -18,7 +18,7 @@ export const data = {
         //              </li>
         //          </ul>
         //     `,
-        //     image: "images/company_logo.png",
+        //     image: "/images/company_logo.png",
         //     imageAlt: "Company logo",
         //     title: "Company Name",
         //     subtitle: "",
@@ -104,7 +104,7 @@ export const data = {
                     </li>
                 </ul>
             `,
-            image: "images/paretohealth_logo.jpeg",
+            image: "/images/paretohealth_logo.jpeg",
             imageAlt: "Pareto Health logo",
             title: "Pareto Health",
             subtitle: "Software Engineer",
@@ -179,7 +179,7 @@ export const data = {
                             </li>
                         </ul>
                     `,
-            image: "images/circulo_logo.jpeg",
+            image: "/images/circulo_logo.jpeg",
             imageAlt: "Circulo logo",
             title: "Circulo Health",
             subtitle: "Software Engineer II",
@@ -213,31 +213,31 @@ export const data = {
                 `,
             examples: [
                 {
-                    "src": "images/weave.png",
+                    "src": "/images/weave.png",
                     "alt": "A screenshot of Weave Transportation's website",
                     "link": "https://weaveind.com/",
                     "caption": "Weave Transportation: A local trucking company's informational website"
                 },
                 {
-                    "src": "images/ostlunds.png",
+                    "src": "/images/ostlunds.png",
                     "alt": "A screenshot of Ostlund's Fire Protection website",
                     "link": "https://ofp.cc/",
                     "caption": "Ostlund's Fire Protection: A local fire safety device installation company's informational website"
                 },
                 {
-                    "src": "images/highTech.png",
+                    "src": "/images/highTech.png",
                     "alt": "A screenshot of High Tech Solutions Group's website",
                     "link": "https://hts-sg.com/",
                     "caption": "High Tech Solutions: A local safety & security company's informational website"
                 },
                 {
-                    "src": "images/susanBryan.png",
+                    "src": "/images/susanBryan.png",
                     "alt": "A screenshot of Susan Bryan Studios website",
                     "link": "https://susanbryanstudios.com/",
                     "caption": "Susan Bryan Studios: a local oil artist's ecommerce and portfolio site"
                 },
                 {
-                    "src": "images/ontherox.png",
+                    "src": "/images/ontherox.png",
                     "alt": "A screenshot of On The Rox website",
                     "link": "https://ontheroxfab.com/",
                     "caption": "On the Rox Fabrication: a Roxor special interest group's ecommerce and guide site"
@@ -255,7 +255,7 @@ export const data = {
                             <li>Technology and tools I used for the legacy application included: CodeIgniter, PHP, HTML, CSS, and jQuery</li>
                         </ul>
                     `,
-            image: "images/webbuy_logo.png",
+            image: "/images/webbuy_logo.png",
             imageAlt: "WebBuy logo",
             title: "Webgrain & WebBuy",
             subtitle: "Web App Developer",
@@ -299,7 +299,7 @@ export const data = {
                         On their website below you'll see games like Buffalo Keno, Longhorn Reels, Enchanted Keno, Sparkling Royale, Wild Lepre'Coins, etc. 
                         I helped perfect all the above games and some of their adaptations to other types (poker, keno, reel) and other states (Nevada, Lousiana, West Virginia).</p>
                     `,
-            image: "images/gvg_logo.jpg",
+            image: "/images/gvg_logo.jpg",
             imageAlt: "Grand Vision Gaming logo",
             title: "Grand Vision Gaming",
             subtitle: "Quality Assurance Lead",

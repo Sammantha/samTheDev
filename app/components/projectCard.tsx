@@ -21,16 +21,6 @@ type projectCardProps = {
     title: string,
 }
 
-type ImageLoaderProps = {
-    src: string,
-    width: number,
-    quality?: number,
-}
-
-const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
-    return `https://samthedev.com/${src}?w=${width}&q=${quality || 75}`
-}
-
 export default function ProjectCard(props: projectCardProps) {
     return (
         <Card className={styles.grid}>
@@ -42,7 +32,6 @@ export default function ProjectCard(props: projectCardProps) {
                     {props?.subtitle}
                 </Typography>
                 <Image
-                    loader={imageLoader}
                     src={props?.image}
                     alt={props?.imageAlt}
                     width={460}

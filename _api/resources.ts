@@ -14,7 +14,7 @@ export const data = {
                         </ul>
                     </p>
                     `,
-            image: "images/ticketTracker.png",
+            image: "/images/ticketTracker.png",
             imageAlt: "Screenshot of Google Sheet",
             title: "Ticket Tracker",
             subtitle: "Fall 2025",
@@ -33,7 +33,7 @@ export const data = {
                         </ul>
                     </p>
                     `,
-            image: "images/applicationTracker.png",
+            image: "/images/applicationTracker.png",
             imageAlt: "Screenshot of Google Sheet",
             title: "Application Tracker",
             subtitle: "Fall 2024",
@@ -52,7 +52,7 @@ export const data = {
                         </ul>
                     </p>
                     `,
-            image: "images/developerJourney.png",
+            image: "/images/developerJourney.png",
             imageAlt: "Screenshot of Google Doc",
             title: "Developer Journey",
             subtitle: "Spring 2024",

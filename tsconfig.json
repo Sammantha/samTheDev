@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "preserve",
-    "outDir": "./out",
+    "outDir": "./dist/client/",
     "paths": {
       "@/api/*": [
         "_api/*"
@@ -42,7 +42,7 @@
     "out/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
-    "next.config.mjs",
+    "next.config.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": [
