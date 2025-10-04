@@ -31,13 +31,7 @@ type ExperienceExamples = {
     alt: string,
     caption: string,
     link: string,
-    src: string,
-}
-
-type ImageLoaderProps = {
-    src: string,
-    width: number,
-    quality?: number,
+    src: string
 }
 
 export default function ExperienceCard(props: ExperienceCardProps) {
