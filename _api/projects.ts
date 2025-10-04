@@ -1,30 +1,54 @@
 export const data = {
     projects: [
         {
+            id: 3,
+            buttonLink: "https://github.com/Sammantha/vonbergen-position-search-automation",
+            buttonText: "View the Repo!",
+            description: `
+                    <p>
+                        A web application to deliver scraped, filtered, and organized job listings to 2 users: my partner and I.
+                        My partner developed the web scraper in Python & Selenium to scan for open positions and filter by custom criteria.
+                        I set up the database and developed the full-stack applicaion to act as an API & a simple front-end.
+                        The front-end is simple: you can select a User, change their keyword exclusion strings, and delete each of their scraped listings.
+                        The API accepts a payload from the Python logic and decides which listings need to be inserted. 
+                        It allows the front-end to get and soft-delete listings. Soft-deletion allows us to avoid duplicate data.
+                    </p>
+                    <p>Tech Stack:</p>
+                    <ul>
+                        <li><strong>Front End: </strong>NextJS framework with React & Typescript</li>
+                        <li><strong>Back End: </strong>CloudFlare's D1 SQLite relational database, REST API within the NextJS app</li>
+                        <li><strong>Cloud Services: </strong>CloudFlare for hosting</li>
+                    </ul>
+                    `,
+            image: "images/vbPositionScraper.png",
+            imageAlt: "Screenshot of open position scraper project",
+            title: "FullStack Open Position Scraper & Aggregator",
+            subtitle: "Summer 2025 - Present",
+        },
+        {
             id: 1,
             buttonLink: "https://github.com/Sammantha/samTheDev",
             buttonText: "View the Repo!",
             description: `
                     <p>
-                        A NextJS application to showcase my fullstack skills and learn NextJS. 
-                        For now data lives in JS files and only half the pages work. 
+                        A web developer portfolio to showcase my fullstack skills, learn NextJS, and practice React.
                         In the future I hope to: 
                         <ul>
-                            <li>showcase a live working demo of all my projects</li>
-                            <li>make sure my website is accessible to all abilities</li>
-                            <li>provide different styling light/dark modes</li>
-                            <li>really get into styling and some animations</li>
+                            <li>provide light/dark mode styling options</li>
+                            <li>make my website accessible to all abilities</li>
+                            <li>showcase a video or live demo of all my projects</li>
+                            <li>learn UI Design and redesign my work experience and project pages</li>
                         </ul>
                     </p>
                     <p>Tech Stack:</p>
                     <ul>
-                        <li><strong>Back End: </strong>No DB yet, NextJS framework with JavaScript</li>
-                        <li><strong>Front End: </strong>Next JS framework with JavaScript, React</li>
-                        <li><strong>Cloud Services: </strong>Cloudflare</li>
+                        <li><strong>Front End: </strong>NextJS framework with React & Typescript</li>
+                        <li><strong>Back End: </strong>No DB, data is stored as html in JS files</li>
+                        <li><strong>Cloud Services: </strong>CloudFlare</li>
                     </ul>
                     `,
             image: "images/portfolio.png",
-            imageAlt: "Screenshot of portfolio project",
+            imageAlt: "Screenshot of developer portfolio project",
             title: "Developer Portfolio",
             subtitle: "Spring 2023 - Present",
         },
@@ -45,8 +69,8 @@ export const data = {
                     </p>
                     <p>Tech Stack:</p>
                     <ul>
+                        <li><strong>Front End: </strong>React framework with JavaScript & Apollo Server</li>
                         <li><strong>Back End: </strong>MySQL DB, GraphQL layer, Node JS framework, Sequelize ORM</li>
-                        <li><strong>Front End: </strong>React JS framework with JavaScript, Apollo Server</li>
                         <li><strong>Cloud Services: </strong>Digital Ocean Hosting using App Platform and Spaces</li>
                     </ul>
                     `,

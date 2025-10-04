@@ -3,6 +3,8 @@ import { Metadata } from 'next'
 import { Newsreader } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import './globals.css';
+import Link from 'next/link';
+import Image from "next/image";
  
 // If loading a variable font, you don't need to specify the font weight
 const newsreader = Newsreader({
@@ -38,6 +40,9 @@ export default function Layout({
                             </g>
                         </svg>
                     </a>
+                    <Link target='_blank' href='https://notbyai.fyi'>
+                        <Image alt='Made by Humans, not by AI' src='images/Developed-By-a-Human-Not-By-AI-Badge-white.svg' width='130' height='41'/>
+                    </Link>
                     <a target="_blank" rel="noreferrer" href="https://bsky.app/profile/samthedev.bsky.social" className="bluesky-flutter">
                         <svg id="flutterby" className="bluesky-flutter" viewBox="0 0 566 500" xmlns="http://www.w3.org/2000/svg">
                             <defs>
